@@ -1,0 +1,129 @@
+/*Common Styles*/
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #345;
+  margin: 0;
+  color: black;
+  height: 100%;
+}
+
+h2 {
+  color: white;
+}
+
+/*Stories component styles*/
+
+.stories {
+  font-family: Arial;
+  /*border: 1px dotted white;*/
+  height: 33.3%;
+
+  /*this property > inline*/
+  white-space: nowrap;
+  overflow: scroll;
+  
+
+}
+
+.stories .slide {
+  width: 23%;
+  height: 100%;
+  margin-right: 1%;
+  background-color: #fff;
+  display: inline-block;
+  background-size: cover;
+  
+
+  vertical-align: top;
+  text-align: center;
+
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+.stories .slide:nth-child(1) {
+  background-image: url(avatars/avatar-1\ \(5\).png);
+  background-size: auto 50%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.stories .slide .create {
+
+  width: 30px;
+  height: 30px;
+  background-color: rgb(9, 146, 226);
+  border: 3px solid white;
+  border-radius: 100%;
+  color: white;
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 96%;
+
+}
+
+.story-create {
+  background-color: transparent;
+  color: black;
+  margin-top: 60%;
+}
+
+
+
+
+
+.stories .slide:nth-child(2) {
+  background-image: url(images/33-300x600.jpg);
+
+}
+
+.stories .slide:nth-child(3) {
+  background-image: url(images/657-300x600.jpg);
+
+}
+
+.stories .slide:nth-child(4) {
+  background-image: url(images/68-300x600.jpg);
+
+}
+
+.stories .slide:nth-child(5) {
+  background-image: url(images/874-300x600.jpg);
+
+}
+
+.stories .slide .avatar {
+  display: inline-block;
+  width: 70%;
+  height: 30%;
+  border: 5px solid  rgb(9, 9, 66);
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 5px 3px #234;
+}
+
+.stories .slide img {
+  width: 114%;
+  margin-left: -6%;
+  margin-top: -18%;
+  
+
+}
+  .stories .label {
+    background-color: #1137;
+    color: white;
+    padding: 1em;
+    margin-top: 95%;
+  
+
+  }
+
+  ::-webkit-scrollbar {
+    height: 0;
+  }
